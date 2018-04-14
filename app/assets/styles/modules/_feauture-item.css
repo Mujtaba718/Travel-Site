@@ -1,6 +1,5 @@
 .feauture-item {
 	position: relative;
-	padding-left: 0px;
 	padding-bottom: 2.5rem;
 
 	@mixin atSmall {
