@@ -1,4 +1,5 @@
-/*Do not edit modules/_sprite directly as it is generated automatically by gulp*/
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
 
 {{#shapes}}
 	{{#first}}
