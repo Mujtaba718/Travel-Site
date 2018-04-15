@@ -1,19 +1,31 @@
 {
   "name": "travel-site",
   "version": "1.0.0",
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js",
+    "watch": "gulp watch"
+  },
   "dependencies": {
     "jquery": "^2.2.3",
     "normalize.css": "^4.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
     "browser-sync": "^2.12.8",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-svg-sprite": "^1.4.0",
     "gulp-watch": "^4.3.5",
+    "postcss-hexrgba": "^1.0.0",
     "postcss-import": "^8.1.2",
     "postcss-mixins": "^4.0.2",
     "postcss-nested": "^1.0.0",
-    "postcss-simple-vars": "^1.2.0"
+    "postcss-simple-vars": "^1.2.0",
+    "webpack": "^3.8.1"
   }
 }
