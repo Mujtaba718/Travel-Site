@@ -880,32 +880,32 @@ a {
   }
 }
 
-.feauture-item {
+.feature-item {
 	position: relative;
 	padding-bottom: 2.5rem;  	
 }
 
 @media (min-width: 530px) {
 
-  .feauture-item {
+  .feature-item {
     padding-left: 94px;
   }
 }
 
-.feauture-item__icon {
+.feature-item__icon {
   display: block;
   margin: 0 auto;
 }
 
 @media (min-width: 530px) {
 
-  .feauture-item__icon {
+  .feature-item__icon {
     position: absolute;
     left: 0;
   }
 }
 
-.feauture-item__title {
+.feature-item__title {
   font-size: 1.6rem;
   font-weight: 300;
   margin-top: .7em;
@@ -915,7 +915,7 @@ a {
 
 @media (min-width: 530px) {
 
-  .feauture-item__title {
+  .feature-item__title {
     text-align: left;
     margin-top: 1em;
     font-size: 1.875rem;
@@ -988,7 +988,6 @@ a {
     margin-right: 1.4rem;
   }
 }
-
 
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
 Instead edit gulp/templates/sprite */
@@ -1202,8 +1201,8 @@ Instead edit gulp/templates/sprite */
 }
 
 .site-header__menu-content--is-visible {
-  opacity: 1;
-	z-index: 1;
+  opacity: 1;/* for fading in affect */
+  z-index: 1;
   transform: scale(1);
 }
 
@@ -1279,4 +1278,15 @@ Instead edit gulp/templates/sprite */
     font-size: 1rem;
     background-color: transparent;
   }
+}
+
+.reveal-item {
+	opacity: 0;
+	transition: all 1.5s ease-out;
+	transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+  opacity: 1;
+  transform: scale(1);
 }
