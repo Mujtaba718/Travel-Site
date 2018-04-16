@@ -988,8 +988,7 @@ a {
     margin-right: 1.4rem;
   }
 }
-<<<<<<< HEAD
-=======
+
 
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
 Instead edit gulp/templates/sprite */
@@ -1204,8 +1203,7 @@ Instead edit gulp/templates/sprite */
 
 .site-header__menu-content--is-visible {
   opacity: 1;
-  // for fading in affect
-			z-index: 1;
+	z-index: 1;
   transform: scale(1);
 }
 
@@ -1282,4 +1280,3 @@ Instead edit gulp/templates/sprite */
     background-color: transparent;
   }
 }
->>>>>>> header
